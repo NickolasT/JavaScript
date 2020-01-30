@@ -1,10 +1,9 @@
-"use script"
+"use strict"
 
-function getBaseLog(a,b){
-    a=25;// Set a
-    b=1000;// Set b
-    return Math.log(b) / Math.log(a); // Return the value
-   
+function getBaseLog (exponentOfLogarithm, baseOfLogarithm) { 
+  exponentOfLogarithm = 25;
+  baseOfLogarithm = 1000;
+  return Math.log ( baseOfLogarithm ) / Math.log ( exponentOfLogarithm ); // Return the value
 }
 
-console.log("logarithm 1000 at base 25 is " +getBaseLog(a,b))
+console.log ( "logarithm 1000 at base 25 is " + getBaseLog () )

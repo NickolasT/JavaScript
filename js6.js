@@ -1,12 +1,12 @@
-"use script"
+"use strict"
 
-let x=5;
-let y=7;
-let z=12;
-if ((x+y<=z)||
-    (x+z<=y)||
-    (y+z<=x)){
-    console.log("No, these sides cannot form a triangle")
+let sideOfTriangleX = 5;
+let sideOfTriangleY = 7;
+let sideOfTriangleZ = 12;
+if ( ( sideOfTriangleX + sideOfTriangleY <= sideOfTriangleZ ) ||
+     ( sideOfTriangleX + sideOfTriangleZ <= sideOfTriangleY ) ||
+     ( sideOfTriangleY + sideOfTriangleZ <= sideOfTriangleX ) ) {
+  console.log ( "No, these sides cannot form a triangle" )
 } else {
-    console.log("Yes, these sides form a triangle")
+  console.log ( "Yes, these sides form a triangle" )
 }

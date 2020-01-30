@@ -1,11 +1,11 @@
-"use script"
+"use strict"
 
-let j=5;
-let k=-1;
-let l=-6;
-let m=9;
-let n=3;
+let numericA = 5;
+let numericB = -1;
+let numericC = -6;
+let numericD = 9;
+let numericE = -3;
 
-let Min=Math.min(Math.abs(j),Math.abs(k),Math.abs(l),Math.abs(m),Math.abs(n));
+let Min = Math.min ( Math.abs ( numericA ) , Math.abs ( numericB ) ,Math.abs ( numericC) , Math.abs ( numericD ) , Math.abs ( numericE ) );
 
-console.log("Minimum value for the module is " +Min)
+console.log("Minimum value for the module is " + Min )

@@ -1,7 +1,7 @@
-"use script"
+"use strict"
 
-let R=8;// Set radius of the sphere
-let V=4/3*Math.PI*R*R*R;//Volume of the sphere
-V=V.toFixed(4); //Rounding to the tens of thousands
+let radiusOfSphere = 8;
+let VolumeOfSphere = 4 / 3 * Math.PI * Math.cbrt ( radiusOfSphere ) ;
+VolumeOfSphere = VolumeOfSphere.toFixed(4); //Rounding to the  ten thousandth
 
-console.log("Volume of the sphere is: "+V)
+console.log("Volume of the sphere is: " + VolumeOfSphere + " cubic units")
